@@ -205,3 +205,30 @@ color: var(--headcolor);
         border: none;
 
 }
+.portfolioall{
+
+}
+.portfolioallitem{
+
+}
+.allitemmenu{
+    text-decoration: none;
+}
+.allhead{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--headcolor);
+
+}
+.alltext{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--textcolorone);
+
+}
