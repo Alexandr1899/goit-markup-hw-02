@@ -61,7 +61,6 @@ text-decoration: none;
     color: var(--maincolor);
 }
 .address {
-    font-weight: 400;
     line-height: 1.71;
     color: var(--maincolor);
 }
@@ -82,7 +81,6 @@ text-decoration: none;
     background-color: var(--bgcolorone);
 }
 .head {
-    font-family: 'Roboto';
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -117,20 +115,16 @@ text-decoration: none;
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--headcolor);
-    font-family: 'Roboto';
     font-size: 14px;
 }
 .detailstext {
-    font-weight: 400;
     line-height: 1.71;
     color: var(--textcolorone);
-    font-family: 'Roboto';
 }
 .ourwork {
 
 }
 .workhead {
-font-family: 'Roboto';
 font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
@@ -146,7 +140,6 @@ color: var(--headcolor);
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    font-family: 'Roboto';
     color: var(--headcolor);
 }
 .teamlist{
@@ -203,6 +196,11 @@ color: var(--headcolor);
         padding: 6px 22px;
         border-radius: 4px;
         border: none;
+
+}
+.activepbtn:hover,.passivepbtn:hover,.passivepbtn:focus, .activepbtn:focus{
+    background-color: var(--activecolor);
+    color: var(--maincolor);
 
 }
 .portfolioall{
