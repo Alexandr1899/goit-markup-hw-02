@@ -8,11 +8,18 @@
     --bgcolortwo: #F5F4FA;
 }
 body {
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: var(--maincolor);
     font-size: 14px;
     letter-spacing: 0.03em;
     background-color: var(--maincolor);
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-style: normal;
 }
 .header {
 
@@ -63,6 +70,7 @@ text-decoration: none;
 .address {
     line-height: 1.71;
     color: var(--maincolor);
+    font-style: normal;
 }
 .footermail, 
 .footerphone {
